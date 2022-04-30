@@ -1,0 +1,98 @@
+/* riset css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-title {
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 1px solid gray;
+}
+
+.nav-wrapper {
+  border-bottom: 1px solid gray;
+  text-align: center;
+  margin: 0 auto;
+  padding:  15px 0;
+}
+
+.nav-item {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+/* object-control */
+.color-gradation {
+  margin: 50px auto;
+  text-align: center;
+  width: 800px;
+  height: 600px;
+  /* flex-box */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.object {
+  flex: auto;
+  width: 25%;
+}
+
+.green1 {
+  background-color: #e6ffe9;
+}
+
+.green2 {
+  background-color: #cbffd3;
+}
+
+.green3 {
+  background-color: #aeffbd;
+}
+
+.green4 {
+  background-color: #93ffab;
+}
+
+.yellow1 {
+background-color: #f3ffd3;
+}
+
+.yellow2 {
+  background-color: #edffbe;
+}
+
+.yellow3 {
+  background-color: #e9ffa5;
+}
+
+.yellow4 {
+  background-color: #e4ff8d;
+}
+
+.blue1 {
+background-color: #d9e5ff;
+}
+
+.blue2 {
+  background-color: #bad3ff;
+}
+
+.blue3 {
+  background-color: #a4c6ff;
+}
+
+.blue4 {
+  background-color: #8eb8ff;
+}
+
+/* footer */
+.footer-text {
+  text-align: center;
+  background-color: gray;
+  color: white;
+  height: 120px;
+  margin: 0;
+  line-height: 120px;
+}

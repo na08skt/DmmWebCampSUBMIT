@@ -1,0 +1,32 @@
+/* riset css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* flex parent */
+.image-collum {
+  flex-direction: column;
+}
+
+/* イメージ */
+.img {
+  width: cover;
+  height: 200px;
+  background-position: center;
+}
+.first  {
+  background-image: url(img/box1.jpg);
+}
+
+.second {
+  background-image: url(img/box2.jpg);
+}
+
+.third {
+  background-image: url(img/box3.jpg);
+}
+
+.forth {
+  background-image: url(img/box4.jpg);
+}

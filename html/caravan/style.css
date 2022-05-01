@@ -39,13 +39,29 @@ header {
 .main-visual {
   width: 100%;
   height: 300px;
-  background-color: orange;
+  /* urlの読み込みディレクトリ名/画像名 */
+  background-image: url(img/mv.jpg);
+  /* 繰り返し対策＝画像で埋め尽くす＝cover */
+  background-size: cover;
+  background-position: center;
 }
 
 .main-visual-content {
   width: 350px;
   height: 300px;
-  background-color: gold;
+  /* 影をつけるrgba */
+  background-color: rgba( 0,0,0,0.5);
+  text-align: center;
+  padding-top: 105px;
+}
+
+.main-visual-text {
+  color: #fff;
+}
+
+.main-visual-name {
+  color: #fff;
+  margin-top: 30px;
 }
 
 /* main */

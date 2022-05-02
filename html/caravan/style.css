@@ -1,5 +1,5 @@
 /* for github */
-/* [start]1-9 */
+/* [finish]1-9 */
 /* reset css */
 * {
   margin: 0;
@@ -12,6 +12,15 @@
 a {
   text-decoration: none;
 }
+/* fontの指定、各クラスの中で書くよりもど
+こに指定しているかを分かりやすいようにするために
+一箇所にまとめる */
+/* pcにフォントがインストールされていない場合表示されないので、
+その時のために、複数のフォントを準備している
+左から順に読み込まれ、最終的に右端が読み込まれる。 */
+header, nav, h2, .main-visual, footer {
+  font-family: Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;
+}
 
 /* header */
 header {
@@ -19,10 +28,25 @@ header {
   padding: 15px 0;
   margin: 0 auto;
   text-align: center;
+  /* position:relative基準位置の指定 */
+  position: relative;
 }
 
 .heading h1 {
   font-size: 32px;
+}
+
+.social i {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+/* positionをabsoluteしheaderから見て上から２２px右から２２pxの位置 */
+/* social i に記述するとアイコン全てが同じ位置で重なる為、アイコンをまとめているsocialに記述する*/
+.social {
+  position: absolute;
+  top: 22px;
+  right: 22px;
 }
 
 .nav-list {
@@ -49,7 +73,8 @@ header {
 }
 
 .main-visual-content {
-  width: 350px;
+  /* ERROR//ブラウザ確認でたまに％が化けて読み込まれない */
+  width: 40%;
   height: 300px;
   /* 影をつけるrgba */
   background-color: rgba( 0,0,0,0.5);

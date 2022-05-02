@@ -1,1 +1,80 @@
 /* 課題（１）提出用 */
+/* [break]雛形終了 */
+/* reset css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 共通設定 */
+header, footer {
+  height: 50px;
+  width: 100%;
+}
+
+header, .step{
+  background-color: #ff9a4b;
+}
+
+/* header */
+header {
+  margin-bottom: 50px;
+}
+
+/* main area 共通設定 */
+main {
+
+  margin: 50px 0 50px 0;
+}
+
+.articles {
+  /* flex横並び */
+  display: flex;
+  flex-wrap: nowrap;
+  /* articleの幅 */
+  width: 960px;
+  /* 中央配列 */
+  margin: 0 auto;
+}
+
+.box{
+  width: 300px;
+  background-color: #eee;
+  margin: 0 30px 0 0;
+  /* step様position */
+  position: relative;
+}
+
+.step {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.blog-image {
+padding: 10px 10px 15px 10px;
+height: 150px;
+width: 100%;
+}
+
+.contents-text h3 {
+ margin: 0 10px 5px 10px;
+}
+
+.contents-text p {
+ padding: 0 10px 10px 10px;
+}
+
+
+/* header */
+
+
+ /* main */
+
+
+ /* footer */
+footer {
+  background-color: #aaa;
+  margin-top: 50px;
+}
